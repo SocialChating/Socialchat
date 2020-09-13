@@ -1,7 +1,7 @@
 <?php // functions.php
 $dbhost = 'localhost';
-$dbname = 'id14815271_social';
-$dbuser = 'id14815271_socialdb'; 
+$dbname = 'socialchat';
+$dbuser = 'root'; 
 $dbpass = '';
 $appname = "Social's Nest"; 
 mysql_connect($dbhost, $dbuser, $dbpass) or die(mysql_error());
